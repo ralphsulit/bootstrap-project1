@@ -5,5 +5,14 @@
 }
 
 body {
-  background-color: red;
+  
+}
+
+/* Navigation */
+#nav {
+  margin: 15px 20px;
+}
+
+.nav-btn {
+  margin: 0px 10px;
 }
