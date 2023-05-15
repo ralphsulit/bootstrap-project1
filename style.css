@@ -51,3 +51,33 @@ Navigation
   height: 10px;
   width: 10px;
 }
+
+/* *********************** 
+Content
+*********************** */
+.row {
+  width: 100%;
+}
+
+/* Left Content */
+.left-container {
+  height: 85vh;
+}
+
+.left-container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  width: 525px;
+}
+
+.left-container {
+  width: 420px;
+}
+
+/* Right Content */
+.right-container {
+  background-image: url('./assets/images/image-hero-desktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
