@@ -71,6 +71,10 @@ button[type='login'] {
   margin: 0px 20px;
 }
 
+.nav-item {
+  padding-right: 20px;
+}
+
 .dropdown-toggle::after {
   display: none; /* to remove the default toggle icon */
 }
@@ -112,7 +116,13 @@ Content
   background-color: #000;
   border-radius: 12px;
   font-size: 16px;
+  font-weight: 700;
   padding: 13px 0;
+}
+
+.btn-content:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /* Right Content */
