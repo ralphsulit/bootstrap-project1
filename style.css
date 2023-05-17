@@ -84,6 +84,11 @@ button[type='login'] {
   width: 10px;
 }
 
+.dropdown-list-icons {
+  width: 30px;
+  height: 15px;
+}
+
 /* *********************** 
 Content
 *********************** */
