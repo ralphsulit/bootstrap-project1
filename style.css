@@ -118,10 +118,14 @@ Content
 }
 
 /* Left Content */
+.left-container {
+  max-width: 315px;
+  margin: 0 auto;
+}
+
 .left-container h1 {
   font-size: 1.9rem;
   font-weight: 700;
-  max-width: 300px;
 }
 
 .left-container-logos {
@@ -130,10 +134,6 @@ Content
 
 .left-container-logos img {
   width: 68px;
-}
-
-.left-container-logos li:nth-child(2) {
-
 }
 
 .btn-content {
