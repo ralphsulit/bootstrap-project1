@@ -43,8 +43,20 @@ ul li {
 /* *********************** 
 Navigation 
 *********************** */
-#nav {
-  padding: 15px 20px;
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggle-icon {
+  color: red;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  padding-top: 11px;
 }
 
 button[type='register'] {
@@ -96,24 +108,32 @@ Content
   width: 100%;
 }
 
+/* Right Content */
+.right-container {
+  background-image: url('./assets/images/image-hero-mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
 /* Left Content */
-.left-container {
-  height: 85vh;
-}
-
 .left-container h1 {
-  font-size: 5rem;
+  font-size: 1.9rem;
   font-weight: 700;
-  width: 525px;
+  max-width: 300px;
 }
 
-
-.left-container p {
-  width: 400px;
-}
-
-.left-container ul {
+.left-container-logos {
   padding-left: 0;
+}
+
+.left-container-logos img {
+  width: 68px;
+}
+
+.left-container-logos li:nth-child(2) {
+
 }
 
 .btn-content {
@@ -123,6 +143,7 @@ Content
   font-size: 16px;
   font-weight: 700;
   padding: 13px 0;
+  margin: 0 auto;
 }
 
 .btn-content:hover {
@@ -130,7 +151,10 @@ Content
   color: #000;
 }
 
-/* Right Content */
-.right-container {
 
+/* *********************** 
+Media Queries
+*********************** */
+@media(min-width: 1024px) {
+  
 }
